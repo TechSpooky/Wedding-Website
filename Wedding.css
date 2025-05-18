@@ -1,0 +1,326 @@
+/* -------------------------------------------------- */
+/* General Body Styles */
+/* -------------------------------------------------- */
+body {
+  background-color: #ffffff; /* Orange background */
+  margin: 0%;
+}
+
+/* -------------------------------------------------- */
+/* Title and Countdown Section */
+/* -------------------------------------------------- */
+.title {
+  display: flex;
+}
+
+.Countdown {
+  flex: 1;
+}
+
+.Heading {
+  width: 60%;
+}
+
+/* -------------------------------------------------- */
+/* Navigation Bar */
+/* -------------------------------------------------- */
+.navbar ul {
+  list-style-type: none;
+  background-color: rgb(0, 0, 0);
+  padding: 0%;
+  margin: 0%;
+  display: flex; /* Use flexbox */
+  justify-content: space-around; /* Evenly distributes items */
+  align-items: center; /* Aligns items vertically */
+  width: 100%;
+  overflow-x: auto;
+}
+
+.navbar a {
+  color: rgb(175, 105, 78);
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  transition: background-color 1s;
+}
+
+.navbar a:hover {
+  background-color: rgba(230, 183, 96, 0.432);
+}
+
+.navbar li {
+  flex: 1; /* Each item takes equal space */
+  text-align: center;
+  display: inline-block;
+}
+
+/* -------------------------------------------------- */
+/* Main Content Area */
+/* -------------------------------------------------- */
+main {
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column; /* Stack the two containers vertically */
+}
+
+
+/* -------------------------------------------------- */
+/* Video Styles */
+/* -------------------------------------------------- */
+.video1 {
+  flex: 1;
+  height: auto;
+  max-width: 40%; /* Adjust as needed */
+  min-width: 340px;
+  display: block;
+  border: 5px solid rgb(175, 105, 78);
+  object-fit: cover;
+  margin-top: 60px;
+  transition: box-shadow 0.8s ease;
+  box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.8);
+}
+
+.video1:hover {
+  box-shadow: 15px 15px 50px rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+
+/* -------------------------------------------------- */
+/* Image Styles */
+/* -------------------------------------------------- */
+.image2 {
+  background-image: url("venue.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex: 1;
+  padding-top: 40%; /* Maintains aspect ratio */
+  border: 5px solid rgb(175, 105, 78);
+  transition: box-shadow 0.8s ease;
+}
+
+.image2:hover {
+  box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+
+.image21 {
+  background-image: url("fall.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50%; /* Set an explicit width */
+  padding-top: 30%; /* Maintains aspect ratio */
+  border: 10px solid white;
+  transition: box-shadow 0.8s ease, scale 1s;
+}
+
+.image21:hover {
+  box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.8);
+  transform: scale(1.25);
+  cursor: pointer;
+}
+
+
+
+.image3:hover {
+  box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+
+
+.image4 {
+  background-image: url("fall3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  flex: 1;
+  padding-top: 110%; /* Maintains aspect ratio */
+  border: 10px solid rgb(175, 105, 78);
+  transition: box-shadow 0.8s ease;
+}
+
+.image4:hover {
+  box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+
+
+/* -------------------------------------------------- */
+/* Heading Styles */
+/* -------------------------------------------------- */
+h3 {
+  color: rgb(255, 255, 255);
+  text-align: left;
+  font-family: italic;
+}
+
+h1 {
+  margin: 0%;
+  color: whitesmoke;
+  text-align: center;
+  font-weight: normal;
+  font-family: 'Great Vibes', cursive;
+  font-size: 60px;
+  color: #000000;
+}
+
+h2 {
+  margin-top: 0%;
+  margin-bottom: 2%;
+  padding: 0%;
+  color: rgb(175, 105, 78);
+  text-align: center;
+  font-weight: normal;
+}
+
+
+.LizH {
+  width: 50%;
+  margin-top: 50px; /* change this to 0 to make the picture match the top of the letters*/
+}
+
+/* -------------------------------------------------- */
+/* Paragraph and Caption Styles */
+/* -------------------------------------------------- */
+.caption {
+  text-align: center;
+  font-weight: normal;
+  font-family: 'Great Vibes', cursive;
+  font-size: 20px;
+  color: #000000;
+}
+
+.attirecaption2 {
+  text-align: center;
+  font-weight: normal;
+  border: 5px solid rgb(175, 105, 78);
+  color: rgb(175, 105, 78);
+}
+
+.LizC {
+  margin-left: 13%;
+  margin-right: 13%;
+  font-weight: normal;
+  font-size: 15px;
+  color: rgb(175, 105, 78);
+  text-align: center;
+  font-family: none;
+  line-height: 2;
+  word-spacing: 2;
+  border: 10px solid rgb(175, 105, 78);
+  transition: box-shadow 0.8s ease;
+}
+
+.LizC:hover {
+  box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+
+/* -------------------------------------------------- */
+/* Layout Containers */
+/* -------------------------------------------------- */
+.container {
+    display: flex; /* Use Flexbox to align items side by side */
+    align-items: flex-start; /* Vertically center the text and image */
+    justify-content: space-between; /* Optional: controls spacing between image and text */
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .text-block {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* Center text content */
+  }
+  
+.containattire12 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2%;
+  justify-content: space-between;
+  margin-bottom: 2%;
+}
+
+.containattire {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2%;
+}
+
+.containattire1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text-container {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  height: 100%; /* Ensure the container has a height */
+  text-align: center;
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centers the circles horizontally */
+  flex: 1;
+  margin: 10px;
+}
+
+/* -------------------------------------------------- */
+/* Vertical Navigation */
+/* -------------------------------------------------- */
+.vertical-nav {
+  background-color: #333; /* Dark background for contrast */
+  padding: 0;
+}
+
+.vertical-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.vertical-nav li {
+  border-bottom: 1px solid #444; /* Optional: separates items with a border */
+}
+
+.vertical-nav a {
+  display: block;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.vertical-nav a:hover {
+
+}
+
+.info {
+  margin: 2px;
+}
+
+/* -------------------------------------------------- */
+/* Animations */
+/* -------------------------------------------------- */
+@keyframes scroll-horizontal {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-600%);
+  }
+}

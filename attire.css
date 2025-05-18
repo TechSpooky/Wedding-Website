@@ -1,0 +1,194 @@
+/* -------------------------------------------------- */
+/* Attire Page */
+/* Changes made to teh attire page are done here.
+/* -------------------------------------------------- */
+
+
+/* -------------------------------------------------- */
+/* Heading Styles */
+/* -------------------------------------------------- */
+.attireh {
+    margin-top: 30px;
+  }
+
+.Ah1{
+    color: whitesmoke;
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+    color: #000000;
+    margin-top: 50px;
+    width: 100%;
+}
+
+/* -------------------------------------------------- */
+/* Image Styles */
+/* -------------------------------------------------- */
+
+.image31 {
+    background-image: url("fall4.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex: 1;
+    padding-top: 140%; /* Maintains aspect ratio */
+    border: 10px solid rgb(175, 105, 78);
+    transition: box-shadow 0.8s ease;
+  }
+
+  .image31:hover {
+    box-shadow: -15px 15px 25px rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+  }
+
+.image4 {
+    background-image: url("fall3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    flex: 1;
+    padding-top: 110%; /* Maintains aspect ratio */
+    border: 10px solid rgb(175, 105, 78);
+    transition: box-shadow 0.8s ease;
+}
+  
+.image4:hover {
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+}
+
+/* -------------------------------------------------- */
+/* Paragraph and Caption Styles */
+/* -------------------------------------------------- */
+.attirecaption {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: normal;
+}
+  
+
+/* -------------------------------------------------- */
+/* Color Circle Styles */
+/* -------------------------------------------------- */
+.colors {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Keep content tidy */
+}
+
+.circle-container {
+  display: flex;
+  gap: 10px;
+  overflow: hidden;
+  border: 5px solid rgb(175, 105, 78);
+  scroll-snap-type: x mandatory;
+  padding: 10px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.color {
+  animation: scroll-horizontal 20s linear infinite; /* Animates the scroll */
+  text-align: center;
+}
+
+.circle {
+  scroll-snap-align: center;
+  min-width: 80px; /* Ensures each circle has a minimum size */
+  height: 80px; /* Consistent height */
+  border-radius: 40px;
+  background-color: rgb(77, 5, 15); /* Set your desired color */
+  transition: box-shadow 0.8s ease;
+}
+
+.circle:hover {
+  box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+
+.color2 {
+  animation: scroll-horizontal 20s linear infinite; /* Animates the scroll */
+  text-align: center;
+}
+
+.circle2 {
+  scroll-snap-align: center;
+  min-width: 80px; /* Ensures each circle has a minimum size */
+  height: 80px; /* Consistent height */
+  border-radius: 40px;
+  background-color: rgb(141, 86, 4); /* Set your desired color */
+  transition: box-shadow 0.8s ease;
+}
+
+.circle2:hover {
+  box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+
+.color3 {
+  animation: scroll-horizontal 20s linear infinite; /* Animates the scroll */
+  text-align: center;
+}
+
+.circle3 {
+  scroll-snap-align: center;
+  min-width: 80px; /* Ensures each circle has a minimum size */
+  height: 80px; /* Consistent height */
+  border-radius: 40px;
+  background-color: rgb(8, 63, 3); /* Set your desired color */
+  transition: box-shadow 0.8s ease;
+}
+
+.circle3:hover {
+  box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+
+.color4 {
+  animation: scroll-horizontal 20s linear infinite; /* Animates the scroll */
+  text-align: center;
+}
+
+.circle4 {
+  scroll-snap-align: center;
+  min-width: 80px; /* Ensures each circle has a minimum size */
+  height: 80px; /* Consistent height */
+  border-radius: 40px;
+  background-color: rgb(241, 160, 8); /* Set your desired color */
+  transition: box-shadow 0.8s ease;
+}
+
+.circle4:hover {
+  box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+
+.color5 {
+  animation: scroll-horizontal 20s linear infinite; /* Animates the scroll */
+  text-align: center;
+}
+
+.circle5 {
+  scroll-snap-align: center;
+  min-width: 80px; /* Ensures each circle has a minimum size */
+  height: 80px; /* Consistent height */
+  border-radius: 40px;
+  background-color: rgb(71, 47, 2); /* Set your desired color */
+  transition: box-shadow 0.8s ease;
+}
+
+.circle5:hover {
+  box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+
+.circle6 {
+  scroll-snap-align: center;
+  flex: 1;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  background-color: rgb(77, 5, 15); /* Set your desired color */
+  transition: box-shadow 0.8s ease;
+}
