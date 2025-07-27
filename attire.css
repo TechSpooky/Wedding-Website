@@ -41,13 +41,22 @@
     cursor: pointer;
   }
 
-.image-container img {
+
+.image-container2 {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centers the circles horizontally */
+  flex: 1;
+  margin: 10px;
+}
+
+.image-container2 img {
   width: 60%;
   height: auto;
   border: 10px solid rgb(175, 105, 78);
   transition: box-shadow 0.8s ease;
 }
-.image-container img:hover{
+.image-container2 img:hover{
   box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.8);
   cursor: pointer;
 }
