@@ -66,6 +66,7 @@ body {
 .navbar li {
   flex: 1; /* Each item takes equal space */
   text-align: center;
+  display: block;
 }
 
 /* -------------------------------------------------- */
