@@ -13,13 +13,26 @@ body {
   display: flex;
 }
 
-.Countdown {
-  flex: 1;
-}
-
 .Heading {
   width: 60%;
 }
+
+
+.countdown {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  flex: 1;
+  align-self: center;
+}
+.timer {
+  font-size: 2em;
+  color: #333;
+  font-weight: normal;
+  font-family: 'Great Vibes', cursive;
+}
+
+
+
 
 /* -------------------------------------------------- */
 /* Navigation Bar */
@@ -73,7 +86,7 @@ main {
 .video1 {
   flex: 1;
   height: auto;
-  max-width: 40%; /* Adjust as needed */
+  width: 100%; /* Adjust as needed */
   min-width: 340px;
   display: block;
   border: 5px solid rgb(175, 105, 78);
@@ -81,6 +94,11 @@ main {
   margin-top: 60px;
   transition: box-shadow 0.8s ease;
   box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.8);
+  box-sizing: border-box;
+
+}
+.video1::-webkit-media-controls-panel {
+  display: none !important;
 }
 
 .video1:hover {
@@ -91,29 +109,28 @@ main {
 /* -------------------------------------------------- */
 /* Image Styles */
 /* -------------------------------------------------- */
-.image2 {
-  background-image: url("venue.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  flex: 1;
-  padding-top: 40%; /* Maintains aspect ratio */
+.image-container1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-container1 img{
+  width: 100%;
+  height: auto;
   border: 5px solid rgb(175, 105, 78);
   transition: box-shadow 0.8s ease;
 }
-
-.image2:hover {
-  box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.8);
+.image-container1 img:hover{
+  box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.8);
   cursor: pointer;
 }
-
 .image21 {
   background-image: url("fall.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  width: 50%; /* Set an explicit width */
-  padding-top: 30%; /* Maintains aspect ratio */
+  width: 100%; /* Set an explicit width */
+  padding-top: 130%; /* Maintains aspect ratio */
   border: 10px solid white;
   transition: box-shadow 0.8s ease, scale 1s;
 }
@@ -132,21 +149,9 @@ main {
 }
 
 
-.image4 {
-  background-image: url("fall3.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
-  flex: 1;
-  padding-top: 110%; /* Maintains aspect ratio */
-  border: 10px solid rgb(175, 105, 78);
-  transition: box-shadow 0.8s ease;
-}
 
-.image4:hover {
-  box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.8);
-  cursor: pointer;
-}
+
+
 
 
 /* -------------------------------------------------- */
@@ -181,6 +186,7 @@ h2 {
 .LizH {
   width: 50%;
   margin-top: 50px; /* change this to 0 to make the picture match the top of the letters*/
+  
 }
 
 /* -------------------------------------------------- */
@@ -190,15 +196,17 @@ h2 {
   text-align: center;
   font-weight: normal;
   font-family: 'Great Vibes', cursive;
-  font-size: 20px;
+  font-size: 1.7em;
   color: #000000;
+  margin-top: 10%;
 }
 
 .attirecaption2 {
   text-align: center;
   font-weight: normal;
-  border: 5px solid rgb(175, 105, 78);
+  
   color: rgb(175, 105, 78);
+  padding: 5%;
 }
 
 .LizC {
@@ -211,7 +219,7 @@ h2 {
   font-family: none;
   line-height: 2;
   word-spacing: 2;
-  border: 10px solid rgb(175, 105, 78);
+
   transition: box-shadow 0.8s ease;
 }
 
@@ -219,7 +227,14 @@ h2 {
   box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.8);
   cursor: pointer;
 }
-
+.giocaption{
+padding: 5%;
+padding-top: 0;
+}
+.lizcaption{
+padding: 5%;
+padding-top: 0;
+}
 /* -------------------------------------------------- */
 /* Layout Containers */
 /* -------------------------------------------------- */
@@ -278,6 +293,16 @@ h2 {
   margin: 10px;
 }
 
+.video_container{
+  flex: 1;
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
 /* -------------------------------------------------- */
 /* Vertical Navigation */
 /* -------------------------------------------------- */
@@ -323,4 +348,24 @@ h2 {
   100% {
     transform: translateX(-600%);
   }
+}
+
+@media (max-width: 768px) {
+  .containattire {
+    flex-direction: column;
+  }
+  .containattire1{
+    flex-direction: column-reverse;
+  }
+  .colors {
+    width: 100%;
+    padding: 0.5rem;
+  }
+  .containattire12{
+    flex-direction: column;
+  }
+  .box label{
+  display: flex;
+  align-items: center
+ }
 }
