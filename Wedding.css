@@ -47,6 +47,7 @@ body {
   width: 100%;
   overflow-x: auto;
   white-space: nowrap;
+  justify-content: space-around;
 }
 
 .navbar a {
