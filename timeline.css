@@ -10,6 +10,10 @@
 }
 .timeline__component{
     margin: 0px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .timeline__componentBGTop{
@@ -35,7 +39,7 @@
     
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
-    margin: 20px 20px 0px 20px;
+    margin: 20px 20px 20px 20px;
     text-align: center;
     border: 5px solid rgb(0, 0, 0);
 
@@ -72,22 +76,34 @@
 /* Paragraph and Caption Styles */
 /* -------------------------------------------------- */
 .fontsize {
+    color: rgb(175, 105, 78);
+    text-align: center;
+    font-weight: normal;
+}
+.Sfontsize {
     color: rgb(0, 0, 0);
     text-align: center;
     font-weight: normal;
 }
-
-.timeline__date{
+.Stimeline__date{
     font-weight: normal;
     text-align: right;
     color: rgb(175, 105, 78);
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.5em;
+    margin-bottom: .75em;
 }
-.timeline__dateL{
+.Stimeline__dateL{
     font-weight: normal;
     text-align: left;
     color: rgb(175, 105, 78);
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.5em;
+    margin-bottom: .65em;
+    
 }
 .TLh2{
     color: black;
     font-family: 'Great Vibes', cursive;
+    margin-bottom: .65;
 }
