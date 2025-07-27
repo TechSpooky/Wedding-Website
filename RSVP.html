@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>My First Webpage</title>
+    <link rel="stylesheet" href="Wedding.css" type="text/css">
+    <link rel="stylesheet" href="RSVP.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class = "title">
+        <div class = "countdown">
+            <div class ="timer">
+                <span class ="days"></span> days 
+                <span class ="hours"></span> hour and
+                <span class ="minutes"></span> minutes 
+                
+            </div>  
+            
+        </div>
+        <div class = "Heading">
+            <h1>Liz and Gios Wedding 2025!</h1>
+            <h2>Novemeber 08 2025</h2>
+        </div>
+        <div class = "countdown">
+            <div class ="timer">
+                <span class ="days"></span> days 
+                <span class = "hours"></span> hour and 
+                <span class ="minutes"></span> minutes 
+                
+            </div>  
+            <script src="wedding.js"></script>  
+        </div>
+        
+    </div>
+    <nav class = "navbar">
+        <ul>
+            <li><a href="Wedding Website.html"> Home/Inicio</a></li>
+            <li><a href=""> Albums</a></li>
+            <li><a href=""> Countdown</a></li>
+            <li><a href="RSVP.html"> RSVP/Confirmar Asistencia</a></li>
+            <li><a href="Events.html"> Events/Eventos</a></li>
+            <li><a href="Attire.html"> Attire/Vestimenta </a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="title_container"> 
+            <div class = "Title_">
+                <h1>RSVP!<h1>
+            </div>
+        </div>
+
+        <div class = "SRSVP_caption">
+            <p>We can’t wait to celebrate with you! Let us know
+                if you’ll be joining us by filling out the RSVP form below. 
+                It really helps us get everything just right for the big day. 
+                Thank you for taking a moment to respond!</p>
+            <P>To help us make our special day perfect, simply enter your full name and the total number of guests in your party who will be joining us (including yourself!).
+                 After that, just click submit! Your prompt response is a huge help in finalizing all the details for an unforgettable event.
+            </P>
+        </div>
+        <div class = "RSVP_caption">
+            <p>¡No podemos esperar para celebrar con ustedes! Por favor, háganos saber si nos acompañarán llenando el formulario de RSVP a continuación.
+                Su confirmación nos ayuda muchísimo a tener todo listo para el gran día. ¡Gracias por tomarse un momento para responder!
+            </p>
+            <P>Para ayudarnos a que nuestro día especial sea perfecto, simplemente ingresa tu nombre completo y el número total de invitados de tu grupo que nos acompañarán
+                 (¡incluyéndote a ti!).Después de eso, solo haz clic en enviar. ¡Tu pronta respuesta es de gran ayuda para finalizar todos los detalles de un evento inolvidable! 
+            </P>
+        </div>
+        <div class="rsvp-form">
+            <div class = "box">
+                <label for="guestName" class = "boxl">Your Name/Su Nombre:</label>
+                <input type="text" id="guestName" name="guestName" placeholder="Enter your name..." required>
+            </div>
+            <button id="submitBtn">Submit</button>
+            <label for="guestCount">Number of Guests/Número de invitados <label>
+            <select id="guestCount">
+            <option value="">Select</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            </select>
+
+        </div>
+        <div class= "confirmationMessage" id ="confirmationMessage" style="margin-top: 10px; color: rgb(175, 105, 78);;"></div>
+    </main>
+    <nav class = "vertical-nav">
+        <ul>
+            <li class = ><a href=""> 
+                <p class = "info">Giovany Gonzalez-Pineda</p>
+                <p class = "info">Phone: 336-781-7922</p>
+                <p class = "info">Elizabeth Onitveros Hernandez</p>
+                <p class = "info">Phone: 336-781-7922</p>
+            </a></li>
+            
+        </ul>
+    </nav>
+    
+    </body>
+    
+</html>

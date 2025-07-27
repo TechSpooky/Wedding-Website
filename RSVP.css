@@ -1,0 +1,121 @@
+/* -------------------------------------------------- */
+/* General Body Styles */
+/* -------------------------------------------------- */
+
+/* -------------------------------------------------- */
+/* Title and Countdown Section */
+/* -------------------------------------------------- */
+
+.Title_{
+    align-self: center;
+}
+
+
+/* -------------------------------------------------- */
+/* Navigation Bar */
+/* -------------------------------------------------- */
+
+
+/* -------------------------------------------------- */
+/* Main Content Area */
+/* -------------------------------------------------- */
+
+/* -------------------------------------------------- */
+/* Layout Containers */
+/* -------------------------------------------------- */
+.title_container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 2%;
+    
+}
+.rsvp-form{
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.confirmationMessage{
+    display: flex;
+    justify-content: center;
+}
+
+/* -------------------------------------------------- */
+/* RSVP BOX */
+/* -------------------------------------------------- */
+  .rsvp-form label{
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.2em;
+  }
+.rsvp-form input[type="text"],
+.rsvp-form select{
+  border:2px solid ;
+  border-radius: 10px;
+  color: rgb(175, 105, 78);
+  background-color: black
+}
+.rsvp-form ::placeholder{
+  color: rgb(175, 105, 78);
+}
+.rsvp-form button{
+  color: rgb(175, 105, 78);
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+}
+.boxl{
+  display: flex;
+  align-items: center;
+}
+
+/* -------------------------------------------------- */
+/* Image Styles */
+/* -------------------------------------------------- */
+
+
+/* -------------------------------------------------- */
+/* Heading Styles */
+/* -------------------------------------------------- */
+
+
+/* -------------------------------------------------- */
+/* Paragraph and Caption Styles */
+/* -------------------------------------------------- */
+
+.SRSVP_caption{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1em;
+    color: rgb(175, 105, 78);;
+}
+.RSVP_caption{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1em;
+}
+
+/* -------------------------------------------------- */
+/* Vertical Navigation */
+/* -------------------------------------------------- */
+
+
+/* -------------------------------------------------- */
+/* Animations */
+/* -------------------------------------------------- */
+@keyframes scroll-horizontal {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-600%);
+  }
+}
