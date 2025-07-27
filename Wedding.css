@@ -47,7 +47,6 @@ body {
   align-items: center; /* Aligns items vertically */
   width: 100%;
   overflow-x: auto;
-  flex-wrap: wrap; /* ✅ this allows the items to move to the next line if needed */
 }
 
 .navbar a {
