@@ -43,7 +43,7 @@ body {
   padding: 0%;
   margin: 0%;
   display: flex; /* Use flexbox */
-  justify-content: space-around; /* Evenly distributes items */
+  
   align-items: center; /* Aligns items vertically */
   width: 100%;
   overflow-x: auto;
