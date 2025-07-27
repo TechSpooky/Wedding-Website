@@ -386,10 +386,6 @@ padding-top: 0;
   .containattire12{
     flex-direction: column-reverse;
   }
-  .box label{
-  display: flex;
-  align-items: center
- }
  .containattire123 img{
   width: 100%;
  }
