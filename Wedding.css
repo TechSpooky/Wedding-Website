@@ -47,6 +47,7 @@ body {
   width: 100%;
   overflow-x: auto;
   white-space: nowrap;
+  
 }
 
 .navbar a {
@@ -66,7 +67,6 @@ body {
 .navbar li {
   flex: 1; /* Each item takes equal space */
   text-align: center;
-  display: block;
 }
 
 /* -------------------------------------------------- */
@@ -102,7 +102,7 @@ main {
 }
 
 .video1:hover {
-  box-shadow: 15px 15px 50px rgba(0, 0, 0, 0.8);
+  box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.8);
   cursor: pointer;
 }
 
@@ -145,9 +145,11 @@ main {
 
 .containattire12 img{
   width: 70%;
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.8);
 }
 .containattire123 img{
   width: 70%;
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.8);
 }
 
 
@@ -205,7 +207,7 @@ h2 {
   font-family: 'Great Vibes', cursive;
   font-size: 1.7em;
   color: #000000;
-  margin-top: 2%;
+  margin-top: 4%;
   margin-bottom: 0;
 }
 
@@ -351,10 +353,6 @@ padding-top: 0;
   font-size: 15px;
 }
 
-.vertical-nav a:hover {
-
-}
-
 .info {
   margin: 2px;
 }
@@ -386,13 +384,16 @@ padding-top: 0;
   .containattire12{
     flex-direction: column-reverse;
   }
+
  .containattire123 img{
   width: 100%;
  }
 
  .containattire12 img{
   width: 80%;
-
-
+ }
+ 
+ .caption2{
+  margin-top: 10%;
  }
 }
