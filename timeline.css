@@ -87,6 +87,7 @@
 .Stimeline__date{
     font-weight: normal;
     color: rgb(175, 105, 78);
+    text-align: center;
     font-family: 'Great Vibes', cursive;
     font-size: 1.5em;
     margin-bottom: .75em;
@@ -94,6 +95,7 @@
 .Stimeline__dateL{
     font-weight: normal;
     color: rgb(175, 105, 78);
+    text-align: center;
     font-family: 'Great Vibes', cursive;
     font-size: 1.5em;
     margin-bottom: .65em;
@@ -104,6 +106,7 @@
     font-family: 'Great Vibes', cursive;
     margin-bottom: .65;
 }
+
 
 
 
